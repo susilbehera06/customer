@@ -76,7 +76,7 @@ const getCities = async (req, res) => {
                     message: "Cities information",
                     data: cities
                   })
-    } catch (err) {
+    } catch (error) {
         console.log(error)
         return res
                .status(500)
